@@ -14,7 +14,7 @@ type EntityArrayResponseType = HttpResponse<IUsuarios[]>
 //export class Usuarios.Service.TsService {
 export class UsuariosService {
 
-  // Urls
+  // Urls de los servicios
   private urlGetAllUsuarios = environment.urlAPI + 'usuarios'
   usuariosData: IUsuarios[]; // data usuarios respuesta 
 
